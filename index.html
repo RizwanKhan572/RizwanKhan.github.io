@@ -1,11 +1,341 @@
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link id="ic" rel="icon" href="./img/rizwan.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Rizwan</title>
 </head>
+
 <body>
-       Hello world it is html based portfolio.updated html page
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="#home" class="nav-logo"><img src="https://thumbs.dreamstime.com/b/linear-geometric-outline-alphabet-letter-r-simple-logo-design-blue-graphic-element-typography-style-minimalistic-editable-161045285.jpg" height="20px" alt="R" /></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Rizwan</span><br />
+         <span id="jobTitle" >Java Backend Developer</span> 
+        </h2>
+
+        <a href="https://drive.google.com/file/d/1Sm7BgnCgifd0xlUi3ziJRAGOZo79pCt1/view?usp=sharing" target="_blank"
+          class="button">Resume</a>
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/rizwan-khan572/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/RizwanKhan572" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="./img/download.png" alt=""/>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="https://media-exp1.licdn.com/dms/image/D4D03AQEGIcG1_1iZtQ/profile-displayphoto-shrink_800_800/0/1666538289792?e=1672876800&v=beta&t=6e2RLgwtJmIHaQ7PeB5KDb4Zwb5fMaWr0HA86L5LzVU" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <!-- <h2 class="about-subtitle">I'am Harshit Tripathi</h2> -->
+          <p class="about-text">
+            A passionate Developer, Dedicated to developing robust applications that interact with the Backend part of web applications, have the ability to translate business requirements into technical solutions.
+          </p>
+          <br />
+          
+          <p>
+            <!-- Drop a mail harshittripathimax@gmail.com -->
+            <i style="color: #ffffff; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+    
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">Full Stack Web Development</span> 
+            <p class="education-platform ">Masai School</p>
+            <p class="education-duration ">January 2022 - Present</p>
+
+          </div>
+        </div>
+        </div>
+      <div class="education-container bd-grid">
+    
+    <div class="education-data">
+      <div class="education-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="education-name">Higher Secondry Certificate</span>
+        <p class="education-platform ">Maharashtra State Board</p>
+        <p class="education-duration ">March 2019 - 
+          Feb 2020</p>
+
+      </div>
+    </div>
+    </div>
+
+    <!--===== SKILLS =====-->
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/java.jpg" alt="" />
+              <span class="skills-name">Java</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/dsa.png" alt="" />
+              <span class="skills-name">Data Structures and Algorithms</span>
+            </div>
+
+          </div> 
+          
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/html.jpg" alt="" />
+              <span class="skills-name">HTML</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div> 
+             <div>
+                <span class="skills-percentage">75%</span>
+              </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/css.png" alt="" />
+              <span class="skills-name">CSS</span>
+            </div>
+             <!-- <div class="skills-bar skills-css"></div>  -->
+            <!-- <div>
+                <span class="skills-percentage">70%</span>
+              </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/js.jpg" alt="" />
+              <span class="skills-name">JavaScript</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+
+          </div>
+         
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/mysql.png" alt="" />
+              <span class="skills-name">MySql</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <!-- <h2 class="skills-subtitle">Back-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./img/spring.png" alt="" />
+              <span class="skills-name">Spring Boot</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+          </div>
+          <div>
+             <!-- <h2 class="skills-subtitle">TOOLS</h2> --> 
+             <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./img/github.png" alt="" />
+                <span class="skills-name">Github</span>
+              </div>
+            </div>
+           
+            
+
+          </div>
+        </div>
+    </section>
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-container">
+
+        <div class="project-img">
+          <img src="" alt="Online_Shopping" />
+          <p class="project-title">RESTful Web Api</p>
+          <p class="project-subtitle">
+            RESTful Web Services APIs for an Online Shopping App Based On Spring Boot FrameWork.<br>
+            A collaborative project built by a team of 6, executed in 5 days.
+            <!-- login/signup, add to cart, remove from cart and place order are provide which is fully connected with database. -->
+            <br>
+            <br>
+            <b>Tech Stacks</b> :
+           JAVA | SpringBoot | SPRING DATA JPA | MySQL | DEV TOOL 
+          </p>
+          <div class="project-btns">
+            <a href="" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="./img/Freshly-CEO-talks-food-e-commerce-I-think-we-ve-hit-a-tipping-point.jpg" target="_blank" class="small-btn button">
+              Video
+            </a>
+            
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/people/freshly-ceo-talks-food-e-commerce-i-think-we-ve-hit-a-tipping-point/11758189-1-eng-GB/Freshly-CEO-talks-food-e-commerce-I-think-we-ve-hit-a-tipping-point.jpg" />
+          <p class="project-title">Freshly Clone</p>
+          <p class="project-subtitle">
+            Freshly is a New York-based prepared meal delivery
+            company that delivers throughout the United States.
+            It was the first Individual project made by me in just 5 days.
+            
+            <br/><b>Tech Stacks</b> :  HTML | CSS | Javascript ES6 
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/RizwanKhan572/Freshly-Clone" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://freshlyunit3.netlify.app/" target="_blank" class="small-btn button">
+              Live
+              <!-- <i class="bx bx-link-external"></i> -->
+            </a>
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="project-img">
+          <img src="./img/Code-2022-26-40-14.jpg" alt="Beauty-Bebo.com" />
+          <p class="project-title">Beauty-Bebo.com clone</p>
+          <p class="project-subtitle">
+            BeautyBebo is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care products & many more.
+            <br>
+A collaborative project, built in 5 days by a team of 4 developers .<br>
+            
+            <br/><b>Tech Stacks</b> : HTML | CSS | DOM
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Raj210Kumari/half-top-1982" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://beautybebo-unit3.netlify.app/" target="_blank" class="small-btn button">
+              Live
+            </a>
+            
+            </a>
+          </div>
+        </div>
+
+        
+
+        </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="footer-title">Rizwan</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/rizwan-khan572/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn - Rizwan</i></a>
+      <a href="mailto:imriso143@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail: imriso143@gmail.com</i></a>
+      <a href="tel:+91 9918796839" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone:+91-9918796839</i></a>
+          <a href="https://github.com/RizwanKhan572" target="_blank" class="footer-icon"><i class="bx bxl-github">
+            <br />
+           Git-Hub: RizwanKhan572</i></a>
+    </div>
+    
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="https://kit.fontawesome.com/193a1c0cfc.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
